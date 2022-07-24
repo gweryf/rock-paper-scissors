@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+    color: rgb(245, 140, 42);
+    font-size: 60px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 0.2px;
+    margin-bottom: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+img {
+    width: 200px;
+    border-color: black;
+    border-width: 0.3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#rock {
+    background-color: rgb(63, 63, 63);
+    display: block;
+}
+
+#paper {
+    background-color: rgb(63, 63, 63);
+    display: block;
+}
+
+#scissors {
+    background-color: rgb(63, 63, 63);
+    display: block;
+}
+
+#rock:hover {
+    scale: 2;
+}
+
+.paper:hover {
+    scale: 2;
+}
+
+.user-opt {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.userpoints {
+    font-weight: 800;
+    font-size: 20px;
+    color: azure;
+}
+
+.cpupoints {
+    font-weight: 800;
+    font-size: 20px;
+    color: azure;
+}
+
+#result {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: azure;
+}
+
+.rock {
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+.rock:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.paper {
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+.paper:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.scissors {
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+.scissors:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
