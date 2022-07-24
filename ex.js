@@ -108,6 +108,3 @@ paper.addEventListener('click',function(){
         cpupoints.textContent = q;
     }
 });
-
-
-rock.addEventListener('')
